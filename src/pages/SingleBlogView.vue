@@ -48,6 +48,7 @@
 </template>
 
 <script>
+import FacebookComments from '../components/FacebookComments.vue';
 import { useBlogStore } from '../store/BlogStore';
 export default {
     async beforeRouteUpdate(to, from, next) {
@@ -60,6 +61,9 @@ export default {
         return {
             BlogStore
         }
+    },
+    components: {
+        FacebookComments
     }
 }
 </script>
