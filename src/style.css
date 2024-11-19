@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card {
+    @apply md:w-1/2 px-2 lg:w-oneThird mb-4 h-tweentyEightREM relative overflow-hidden rounded-lg;
+}
+
+.input {
+    @apply block border border-tertiary w-full h-12 rounded-lg p-3 bg-secondary focus-visible:outline-none focus-visible:border-gray-500;
+}
+
+.genZButton{
+    background: linear-gradient(90deg,#0ea5ea,#0bd1d1 51%,#0ea5ea) var(--x,0)/200%;
+}
