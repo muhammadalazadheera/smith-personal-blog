@@ -1,5 +1,5 @@
 <template>
-    <div class="fb-comments" data-href="http://localhost:5173/" :data-width="width" :data-numposts="numPosts">
+    <div class="fb-comments" :data-href="href" :data-width="width" :data-numposts="numPosts">
     </div>
 </template>
 
