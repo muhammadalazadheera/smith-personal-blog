@@ -8,7 +8,7 @@
                 <li class="mr-5 inline uppercase"><Router-Link to="/blog">blog</Router-Link></li>
                 <li class="mr-5 inline uppercase"><Router-Link to="/contact">contact</Router-Link></li>
                 <li class="mb-5"><a href="#"><img @click="mmenu = !mmenu" class="my-0 mx-auto" width="30px"
-                            src="../src/assets/icons/close.png" alt=""></a></li>
+                            src="/src/assets/icons/close.png" alt=""></a></li>
             </ul>
         </div>
         <div class="w-full h-14"></div>
