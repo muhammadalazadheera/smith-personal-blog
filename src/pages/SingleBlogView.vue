@@ -10,6 +10,7 @@
             </div>
             <img v-if="BlogStore.blog.blog.featured_image" class="w-full h-96 object-cover mb-10 rounded-xl" :src="BlogStore.blog.blog.featured_image">
             <div v-html="BlogStore.blog.blog.body"></div>
+            <FacebookComments :href="this.$route.currentRoute" />
         </div>
         <div class="px-3 pb-3 w-2/6 border border-genz h-fit bg-tertiary rounded-lg hidden md:block">
             <!-- Single Blog Starts -->

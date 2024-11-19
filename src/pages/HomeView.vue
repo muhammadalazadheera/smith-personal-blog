@@ -23,7 +23,6 @@
         <p class=" text-genzTextWhite">Discover the most recent articles in all topics</p>
     </div>
     <Blog />
-    <FacebookComments :href="this.$route.currentRoute" />
     <Social />
 </template>
 
