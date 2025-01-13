@@ -36,7 +36,6 @@
             rows="3" placeholder="Message"></textarea>
         <button class="w-full h-12 genZButton rounded-lg font-extrabold font-din-medium mr-4 bg-black text-white">Send Message</button>
     </form>
-    <FacebookComments :href="this.$route.currentRoute" />
     <Social />
 
 </template>
@@ -48,8 +47,7 @@ import FacebookComments from '../components/FacebookComments.vue';
 export default {
     components: {
         Social,
-        Heading,
-        FacebookComments
+        Heading
     }
 }
 </script>

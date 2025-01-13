@@ -38,6 +38,7 @@ export const useBlogStore = defineStore('BlogStore', {
                     this.blogs.push({ ...doc.data(), id: doc.id });
                 });
             } catch (error) {
+                console.log(`${error}`)
                 push.error(`${error}`)
             }
 

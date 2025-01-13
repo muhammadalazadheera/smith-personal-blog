@@ -48,6 +48,9 @@ export default {
         Social,
         Blog,
         FacebookComments
+    },
+    mounted() {
+        useBlogStore().getBlogs()
     }
 }
 </script>

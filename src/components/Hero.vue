@@ -8,9 +8,9 @@
                 <p class=" font-nunito font-bold text-lightBlue">Hello Everyone</p>
                 <h1 class="text-balance my-3 leading-0 genz-gradient-text text-2xl font-[900] capitalize">I'm Steven, a lover of technology, business and experiencing new things</h1>
                 <ul class="">
-                    <li class="list-none inline-block p-1 mr-1 w-8 h-8 rounded-full bg-tertiary"><a href="#"><img class="inline-block" src="../assets/icons/facebook.png" alt=""></a></li>
-                    <li class="list-none inline-block p-1 mr-1 w-8 h-8 rounded-full bg-tertiary"><a href="#"><img class="inline-block" src="../assets/icons/instagram.png" alt=""></a></li>
-                    <li class="list-none inline-block p-1 mr-1 w-8 h-8 rounded-full bg-tertiary"><a href="#"><img class="inline-block" src="../assets/icons/snap.png" alt=""></a></li>
+                    <li class="list-none inline-block p-1 mr-1 w-10 h-10 rounded-full bg-tertiary"><a href="#"><img class="inline-block" src="../assets/icons/facebook.png" alt=""></a></li>
+                    <li class="list-none inline-block p-1 mr-1 w-10 h-10 rounded-full bg-tertiary"><a href="#"><img class="inline-block" src="../assets/icons/instagram.png" alt=""></a></li>
+                    <li class="list-none inline-block p-1 mr-1 w-10 h-10 rounded-full bg-tertiary"><a href="#"><img class="inline-block" src="../assets/icons/snap.png" alt=""></a></li>
                 </ul>
             </div>
         </div>
